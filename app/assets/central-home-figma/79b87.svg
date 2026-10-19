@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="144.508" height="72.6764" viewBox="0 0 144.508 72.6764" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 1410099519" clip-path="url(#clip0_0_8)">
+<g id="Ellipse 2659" filter="url(#filter0_f_0_8)">
+<circle cx="72.245" cy="0.742058" r="60.4117" fill="url(#paint0_radial_0_8)" fill-opacity="0.8"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_0_8" x="-2.36616" y="-73.8691" width="149.222" height="149.222" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="7.09972" result="effect1_foregroundBlur_0_8"/>
+</filter>
+<radialGradient id="paint0_radial_0_8" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(72.245 0.742058) rotate(90) scale(60.4117)">
+<stop stop-color="#E5B700"/>
+<stop offset="1" stop-color="#E5B700" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_0_8">
+<rect width="144.508" height="72.6764" fill="white"/>
+</clipPath>
+</defs>
+</svg>

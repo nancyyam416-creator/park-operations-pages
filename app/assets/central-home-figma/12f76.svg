@@ -1,0 +1,22 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Lightning (&#233;&#151;&#170;&#231;&#148;&#181;)" clip-path="url(#clip0_0_8)">
+<g id="Ellipse 2683">
+<circle cx="13.9998" cy="13.9998" r="10.9343" fill="white" fill-opacity="0.6"/>
+<circle cx="13.9998" cy="13.9998" r="10.3743" stroke="white" stroke-opacity="0.6" stroke-width="1.12"/>
+</g>
+<foreignObject x="3.28434" y="-1.08862" width="23.1859" height="30.2079"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(1px);clip-path:url(#bgblur_1_0_8_clip_path);height:100%;width:100%"></div></foreignObject><g id="Vector" data-figma-bg-blur-radius="2">
+<use xlink:href="#stroke0_0_8" fill="white" fill-opacity="0.8"/>
+<mask id="stroke1_0_8" fill="white">
+<use xlink:href="#stroke0_0_8"/>
+</mask>
+<path d="M18.1418 11.9059H22.0567C22.5035 11.9059 22.7259 12.4472 22.4083 12.7614L8.04332 26.9721C7.67522 27.3363 7.06427 26.9695 7.21265 26.4734L10.5374 15.3581C10.6334 15.0374 10.3932 14.7148 10.0584 14.7148H5.78496C5.41649 14.7148 5.17459 14.3298 5.33449 13.9978L11.5014 1.19441C11.5847 1.02138 11.7598 0.911384 11.9519 0.911384H23.9694C24.3748 0.911384 24.6116 1.36841 24.378 1.69963L17.7333 11.1177C17.4996 11.4489 17.7365 11.9059 18.1418 11.9059Z" stroke-width="2.24" stroke="white" mask="url(#stroke1_0_8)"/>
+</g>
+</g>
+<defs>
+<clipPath id="bgblur_1_0_8_clip_path" transform="translate(-3.28434 1.08862)"><path d="M23.8544 1.47095L17.2753 10.7952C16.7805 11.4972 17.2825 12.4658 18.1415 12.4661H21.911L7.81532 26.4094L11.0741 15.5188C11.2775 14.8389 10.7681 14.1546 10.0585 14.1545H5.87978L11.9901 1.47095H23.8544Z"/>
+</clipPath><clipPath id="clip0_0_8">
+<rect width="28" height="28" fill="white"/>
+</clipPath>
+<path id="stroke0_0_8" d="M24.378 1.69963C24.6116 1.36841 24.3748 0.911384 23.9694 0.911384H11.9519C11.7598 0.911384 11.5847 1.02138 11.5014 1.19441L5.33449 13.9978C5.17459 14.3298 5.41649 14.7148 5.78496 14.7148H10.0584C10.3932 14.7148 10.6334 15.0374 10.5374 15.3581L7.21265 26.4734C7.06427 26.9695 7.67522 27.3363 8.04332 26.9721L22.4083 12.7614C22.7259 12.4472 22.5035 11.9059 22.0567 11.9059H18.1418C17.7365 11.9059 17.4996 11.4489 17.7333 11.1177L24.378 1.69963Z"/>
+</defs>
+</svg>

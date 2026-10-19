@@ -1,0 +1,38 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>质检数据同步</title><script>
+(() => {
+  const allowed = new Set(['http://127.0.0.1:3000', 'http://localhost:3000']);
+  const params = new URLSearchParams(location.search);
+  const tenant = params.get('tenant') || 'tenant-park-quality';
+  const project = params.get('project') || 'project-park-quality-1';
+  const key = `ecodorm-quality:${tenant}:${project}`;
+  const nodeKey = `ecodorm:quality-space-nodes:${encodeURIComponent(tenant)}:${encodeURIComponent(project)}:v2`;
+  let clientOrigin;
+  let resources;
+  const channel = new BroadcastChannel(`${key}:space-resources`);
+  const snapshot = () => ({ raw: localStorage.getItem(key), resources, nodes: JSON.parse(localStorage.getItem(nodeKey) || '[]'), reports: JSON.parse(localStorage.getItem(`${key}:reports`) || '[]') });
+  const send = (payload) => { if (clientOrigin) parent.postMessage({ channel: 'quality-mobile', ...payload }, clientOrigin); };
+  channel.onmessage = (event) => { resources = event.data; send({ action: 'snapshot', ...snapshot() }); };
+  window.addEventListener('message', (event) => {
+    if (event.source !== parent || !allowed.has(event.origin) || event.data?.channel !== 'quality-mobile') return;
+    clientOrigin = event.origin;
+    try {
+      if (event.data.action === 'read') { channel.postMessage('read'); return send({ action: 'snapshot', ...snapshot() }); }
+      if (event.data.action !== 'write') return;
+      const current = localStorage.getItem(key);
+      if (current !== event.data.expected) return send({ action: 'conflict', ...snapshot() });
+      const store = JSON.parse(current || 'null');
+      if (!store) throw new Error('请先打开后台质检项目初始化任务');
+      const updates = event.data.tasks;
+      const defects = event.data.defects;
+      if (!Array.isArray(updates) || !Array.isArray(defects)) throw new Error('同步数据格式不正确');
+      const taskIds = new Set(updates.map(item => item.id));
+      if (updates.some(item => !store.tasks.some(task => task.id === item.id))) throw new Error('后台任务已变更，请重新载入');
+      store.tasks = store.tasks.map(task => updates.find(item => item.id === task.id) || task);
+      store.defects = [...store.defects.filter(item => !taskIds.has(item.taskId)), ...defects.filter(item => taskIds.has(item.taskId))];
+      localStorage.setItem(key, JSON.stringify(store));
+      send({ action: 'saved', ...snapshot() });
+    } catch (error) { send({ action: 'error', message: error.message }); }
+  });
+  window.addEventListener('storage', event => { if ([key, nodeKey, `${key}:reports`, `${key}:space-resources`].includes(event.key)) send({ action: 'snapshot', ...snapshot() }); });
+})();
+</script></html>

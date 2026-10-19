@@ -1,0 +1,29 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="74" height="70.7733" viewBox="0 0 74 70.7733" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Group 1171274998">
+<g id="Rectangle 34625728">
+<use xlink:href="#stroke0_0_4" fill="#D9D9D9"/>
+<use xlink:href="#stroke0_0_4" fill="url(#paint0_linear_0_4)"/>
+</g>
+<foreignObject x="-3.83789" y="7.40039" width="81.675" height="71.373"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(4px);clip-path:url(#bgblur_0_0_4_clip_path);height:100%;width:100%"></div></foreignObject><g id="Rectangle 34625729" data-figma-bg-blur-radius="8">
+<use xlink:href="#stroke1_0_4" fill="white" fill-opacity="0.5"/>
+<mask id="stroke2_0_4" fill="white">
+<use xlink:href="#stroke1_0_4"/>
+</mask>
+<path d="M9.0374 19.5637L7.93903 19.8982C5.69538 20.5814 4.16211 22.6511 4.16211 24.9965V37.9358C4.16211 56.0715 18.864 70.7733 36.9996 70.7733C55.1353 70.7733 69.8371 56.0715 69.8371 37.9358V24.9965C69.8371 22.6511 68.3038 20.5814 66.0602 19.8982L64.9618 19.5637C46.7336 14.0126 27.2656 14.0126 9.0374 19.5637Z" stroke-width="2" stroke="url(#paint1_linear_0_4)" mask="url(#stroke2_0_4)"/>
+</g>
+<circle id="Ellipse 2717" cx="37" cy="42.9561" r="3.45215" fill="white"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_4_clip_path" transform="translate(3.83789 -7.40039)"><path d="M9.18262 20.0415C27.3159 14.5194 46.6831 14.5194 64.8164 20.0415L65.9141 20.3765C67.9472 20.9956 69.3369 22.8712 69.3369 24.9966V37.936C69.3368 55.7953 54.8593 70.2727 37 70.2729C19.1406 70.2729 4.66222 55.7955 4.66211 37.936V24.9966C4.66211 22.8712 6.0518 20.9956 8.08496 20.3765L9.18262 20.0415Z"/>
+</clipPath><linearGradient id="paint0_linear_0_4" x1="37" y1="10" x2="37" y2="25.725" gradientUnits="userSpaceOnUse">
+<stop stop-color="#374D5F"/>
+<stop offset="1" stop-color="#5E778B"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_4" x1="36.9996" y1="18.0483" x2="36.9996" y2="70.7733" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.5"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<path id="stroke0_0_4" d="M0 14.3334C0 11.7762 1.71464 9.53658 4.18328 8.86938C25.6755 3.06067 48.3245 3.06067 69.8167 8.86938C72.2854 9.53658 74 11.7762 74 14.3334V21.3916C74 23.9488 72.2854 26.1884 69.8167 26.8556C48.3245 32.6643 25.6755 32.6643 4.18328 26.8556C1.71464 26.1884 0 23.9488 0 21.3916V14.3334Z"/>
+<path id="stroke1_0_4" d="M4.16211 24.9965C4.16211 22.6511 5.69538 20.5814 7.93903 19.8982L9.0374 19.5637C27.2656 14.0126 46.7336 14.0126 64.9618 19.5637L66.0602 19.8982C68.3038 20.5814 69.8371 22.6511 69.8371 24.9965V37.9358C69.8371 56.0715 55.1353 70.7733 36.9996 70.7733C18.864 70.7733 4.16211 56.0715 4.16211 37.9358V24.9965Z"/>
+</defs>
+</svg>

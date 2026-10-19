@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="52" height="47" viewBox="0 0 52 47" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Dome-light (&#233;&#161;&#182;&#231;&#129;&#175;)">
+<path id="Vector" d="M26.3118 1.73019V6.86781" stroke-width="2.24187" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Ellipse 2709" d="M39.655 32.556C39.655 39.9253 33.6811 45.8993 26.3118 45.8993C18.9425 45.8993 12.9685 39.9253 12.9685 32.556C12.9685 25.1867 18.9425 19.2127 26.3118 19.2127C33.6811 19.2127 39.655 25.1867 39.655 32.556Z" fill="white" fill-opacity="0.96" stroke-width="1.14429" stroke="white"/>
+<foreignObject x="-8.33074" y="-2.28656" width="69.2852" height="43.9968"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(4.58px);clip-path:url(#bgblur_0_0_97_clip_path);height:100%;width:100%"></div></foreignObject><g id="Vector_2" data-figma-bg-blur-radius="9.15432">
+<use xlink:href="#stroke0_0_97" fill="white" fill-opacity="0.66"/>
+<mask id="stroke1_0_97" fill="white">
+<use xlink:href="#stroke0_0_97"/>
+</mask>
+<path d="M26.3119 6.86776C13.2858 6.86776 2.52433 16.5632 0.850043 29.1313C0.599685 31.0106 2.1607 32.5559 4.05663 32.5559H48.5671C50.463 32.5559 52.0241 31.0106 51.7737 29.1313C50.0994 16.5632 39.3379 6.86776 26.3119 6.86776Z" stroke-width="2" stroke="url(#paint0_linear_0_97)" mask="url(#stroke1_0_97)"/>
+</g>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_97_clip_path" transform="translate(8.33074 2.28656)"><path d="M26.3122 7.36776C39.084 7.36794 49.6362 16.8742 51.2781 29.1969C51.4825 30.7318 50.2076 32.0562 48.5671 32.0562H4.05637C2.41606 32.0561 1.14097 30.7317 1.34544 29.1969C2.98725 16.8741 13.5403 7.36776 26.3122 7.36776Z"/>
+</clipPath><linearGradient id="paint0_linear_0_97" x1="26.3119" y1="6.86776" x2="26.3119" y2="32.5559" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<path id="stroke0_0_97" d="M26.3119 6.86776C13.2858 6.86776 2.52433 16.5632 0.850043 29.1313C0.599685 31.0106 2.1607 32.5559 4.05663 32.5559H48.5671C50.4631 32.5559 52.0241 31.0106 51.7737 29.1313C50.0994 16.5632 39.3379 6.86776 26.3119 6.86776Z"/>
+</defs>
+</svg>
